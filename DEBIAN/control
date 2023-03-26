@@ -1,0 +1,8 @@
+Package: debian-template
+Version: 0.0.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: bash
+Maintainer: Jonathan Dyallo <contacto@jonathan.com.ar>
+Description: A demo application

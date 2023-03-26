@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Create symbolic link
+sudo ln -s /usr/share/debian-package-base/usr/bin/main.sh /usr/bin/debian-package-base
+
+# Get the project in a more monkey-friendly way
+cd /usr/share
+git clone https://github.com/jd-apprentice/debian-package-base.git
+
+# Give permissions to the application and source the files
+chmod -R 777 /usr/share/debian-package-base
+
+# Successfully installed the application, give message to the user
+echo "debian-package-base has been installed successfully!"
+echo "You can run it by typing 'debian-template' in the terminal."
