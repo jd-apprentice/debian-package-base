@@ -1,5 +1,6 @@
 #!/bin/bash
 
 # We remove everything we can from the user's home directory
+# REMEMBER TO CHANGE NAMES IN THESE LINES
 sudo rm -rf /usr/bin/debian-package-base
 sudo rm -rf /usr/share/debian-package-base
