@@ -33,6 +33,7 @@ cd "$copy"
 # Also here remove anything not useful to the final build example images for the readme, markdown files, etc
 rm -rf .git
 rm *.md
+rm LICENSE
 
 # Move out of the copy directory
 cd ..
