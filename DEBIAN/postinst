@@ -16,4 +16,4 @@ chmod -R 777 /usr/share/debian-package-base
 # Successfully installed the application, give message to the user
 # REMEMBER TO CHANGE NAMES IN THESE LINES
 echo "debian-package-base has been installed successfully!"
-echo "You can run it by typing 'debian-template' in the terminal."
+echo "You can run it by typing 'debian-package-base' in the terminal."
